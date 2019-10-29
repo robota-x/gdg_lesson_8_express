@@ -16,13 +16,16 @@
 - Create an app from https://dashboard.heroku.com/ 
   - select new, europe, give it a name and create
   - connect to github and select the repo
-  - manual deploy the last step and wait for the steps
-- See it fail
+  - manual deploy the last step
+- Slides while we wait
+  - overview of the journey our code is taking
+- Back to deploy
+  - open the link, see it fail
+  - add the Procfile
+  - fix the port to `process.env.PORT || 3000`
 
 
 
-
-pre-requisites:
-bring your computer as this will be mostly lab
-as mentioned, if you have a project you want to deploy, have it ready in a folder
-have git installed locally and a github account (https://help.github.com/en/github/getting-started-with-github/set-up-git is a good guide)
+## resources
+https://devcenter.heroku.com/articles/getting-started-with-nodejs
+https://devcenter.heroku.com/articles/preparing-a-codebase-for-heroku-deployment
